@@ -14,3 +14,8 @@ body {
     background-color: #ffffff;
     font-family: var(--font-sans-serif);
 }
+
+a {
+    color:#0e5fd3;
+    font-family: sans-serif;
+}
