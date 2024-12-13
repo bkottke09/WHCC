@@ -1,5 +1,5 @@
 :root {
-    --font-sans-serif: Instrument Sans, sans-serif;
+    --font-sans-serif: sans-serif;
     --black: #000000;
     --white: #ffffff;
     --gray-dark: #494b50;
@@ -12,6 +12,7 @@
 
 body {
     background-color: #ffffff;
+    color: var(--gray-dark);
     font-family: var(--font-sans-serif);
 }
 
@@ -20,24 +21,17 @@ a {
     font-family: var(--font-sans-serif);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-family: var(--font-sans-serif);
+    font-size: 40px;
+}
+
+h2, h3, h4, h5, h6 {
     font-family: var(--font-sans-serif);
 
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
-}
-
-.component img {
-    max-width: initial;
-}
-
-.component__img {
-    border: 1px solid #000000;
-}
-
-.component__code {
-    border: 1px solid #000000;
 }
