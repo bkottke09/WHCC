@@ -51,27 +51,40 @@ h4.line-behind {
     width: auto; 
     position: relative; 
     text-align: center;
+    color: var(--blue-light);
 }
 
-h3.line-behind:after { 
+h4.line-behind:after { 
     content: " "; 
-    border-top: 3px solid black; 
+    border-top: 2px solid black; 
     position: absolute; 
     width:100%; 
     top: 50%; 
     left: 0; 
     z-index: 1; 
+    color: var(--blue-light);
 }
 
 
 h4 {
     color: var(--black);
-    background-color: var(--blue-light) opacity 50%;
+    background-color: none;
     font-family: var(--font-sans-serif);
     font-size: 35px;
     text-transform: none;
     padding: 0px;
     letter-spacing: 0px;
+}
+
+h6 {
+    color: var(--white);
+    background-color: var(--blue-med);
+    font-family: var(--font-sans-serif);
+    font-size: 35px;
+    text-transform: none;
+    padding: 0px;
+    letter-spacing: 0px;
+    border-radius: 2px;
 }
 
 a {
