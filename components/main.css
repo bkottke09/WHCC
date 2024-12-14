@@ -13,7 +13,7 @@
 
 body {
     background: #ffffff;
-    color: var(--gray-med)
+    color: var(--gray-med);
     font-family: sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -35,6 +35,43 @@ h2 {
     text-transform: uppercase;
     padding: 5px;
     letter-spacing: 2px;
+}
+
+h3 {
+    color: var(--black);
+    background-color: none;
+    font-family: var(--font-sans-serif);
+    font-size: 35px;
+    text-transform: none;
+    padding: 0px;
+    letter-spacing: 0px;
+}
+
+h4.line-behind {
+    width: auto; 
+    position: relative; 
+    text-align: center;
+}
+
+h3.line-behind:after { 
+    content: " "; 
+    border-top: 3px solid black; 
+    position: absolute; 
+    width:100%; 
+    top: 50%; 
+    left: 0; 
+    z-index: 1; 
+}
+
+
+h4 {
+    color: var(--black);
+    background-color: var(--blue-light) opacity 50%;
+    font-family: var(--font-sans-serif);
+    font-size: 35px;
+    text-transform: none;
+    padding: 0px;
+    letter-spacing: 0px;
 }
 
 a {
@@ -115,7 +152,7 @@ nav {
     padding: 2px;
     text-align: center;
     justify-content: space-between;
-    background-color: v);
+    background-color: var(--blue-med);
 }
 
 ul {
