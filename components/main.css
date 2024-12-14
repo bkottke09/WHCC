@@ -1,32 +1,53 @@
+
+:root {
+    --font-sans-serif: "Instrument Sans", sans-serif;;
+    --black: #000000;
+    --white: #ffffff;
+    --gray-dark: #494b50;
+    --gray-med: #73787e;
+    --gray-light: #d0d2d4;
+    --blue-dark: #073370;
+    --blue-med: #0e5fd3;
+    --blue-light: #95bff8;
+}
+
 body {
     background: #ffffff;
+    color: var(--gray-med)
     font-family: sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 14px;
-    font-family: sans-serif;
+    color: var(--gray-med);
+    font-family: var(--font-sans-serif);
+    font-size: 35px;
+    text-transform: none;
     padding: 2px;
 }
 
 h2 {
-    color: #7f0909;
-    font-size: 40px;
-    padding: 2px;
+    color: var(--blue-light);
+    background-color: var(--blue-dark);
+    font-family: var(--font-sans-serif);
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 5px;
+    letter-spacing: 2px;
 }
 
 a {
-    color: #000000;
+    color: var(--black);
+    font-family: var(--font-sans-serif);
     text-transform: none;
     text-decoration: none;
     justify-content: space-between;
 }
 
 a:hover {
-    color: #0e5fd3;
+    color: var(--blue-med);
+    font-family: var(--font-sans-serif);
     text-transform: none;
     text-decoration: none;
     justify-content: space-between;
@@ -39,7 +60,7 @@ img {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--white);
     font-family: sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -71,10 +92,12 @@ nav {
     justify-content: space-between;
     margin: auto;
     display: flex;
+    font-size: 12px;
+    font-family: var(--font-sans-serif);
 }
 
 .container {
-    background: #ffffff;
+    background: var(--white);
     padding: 20px;
     max-width: 100%;
     margin: auto;
@@ -84,6 +107,7 @@ nav {
     display: block;
     height: 60px;
     padding-left: 20px;
+    font-size: 12px;
 }
 
 .memo-banner {
@@ -91,7 +115,7 @@ nav {
     padding: 2px;
     text-align: center;
     justify-content: space-between;
-    background-color:rgb(12, 84, 188);
+    background-color: v);
 }
 
 ul {
@@ -121,7 +145,7 @@ img {
 }
 .button--primary {
     background-color: transparent;
-    border: .5px solid black;
+    border: .5px solid var(--black);
     border-radius: 0.5rem;
     width: 30px;
     padding: 6px;
