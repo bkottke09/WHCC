@@ -1,5 +1,5 @@
 :root {
-    --font-sans-serif: "Instrument Sans", sans-serif;;
+    --font-sans-serif: Instrument Sans, sans-serif;
     --black: #000000;
     --white: #ffffff;
     --gray-dark: #494b50;
@@ -13,8 +13,11 @@
 body {
     background-color: #ffffff;
     color: var(--gray-dark);
-    font-family: Instrument-Sans;
+    font-family: var(--font-sans-serif);
+    font-size: 112px;
+    font-weight: 100;
 }
+    
 
 a {
     color: var(--blue-med);
@@ -22,8 +25,8 @@ a {
 }
 
 h1 {
-    font-family: Instrument Sans;
-    font-size: 40px;
+    font-family: var(--font-sans-serif);
+    font-size: 100px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -38,4 +41,27 @@ img {
 
 .components__img {
     width: 1300px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}
+.button--primary {
+    background-color: transparent;
+    border: .5px solid black;
+    border-radius: 0.5rem;
+    width: 30px;
+    padding: 6px;
+    padding-top: 4px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.screenshot {
+    max-width: 100%;
+    border: 1px solid black;
 }
