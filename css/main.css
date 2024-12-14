@@ -1,5 +1,5 @@
 :root {
-    --font-sans-serif: sans-serif;
+    --font-sans-serif: "Instrument Sans", sans-serif;;
     --black: #000000;
     --white: #ffffff;
     --gray-dark: #494b50;
@@ -13,7 +13,7 @@
 body {
     background-color: #ffffff;
     color: var(--gray-dark);
-    font-family: var(--font-sans-serif);
+    font-family: Instrument-Sans;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 }
 
 h1 {
-    font-family: var(--font-sans-serif);
+    font-family: Instrument Sans;
     font-size: 40px;
 }
 
@@ -34,4 +34,8 @@ h2, h3, h4, h5, h6 {
 img {
     max-width: 50%;
     display: block;
+}
+
+.components__img {
+    width: 1300px;
 }
